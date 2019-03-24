@@ -1,4 +1,4 @@
-package app;
+package pets;
 
 import java.awt.Color;
 

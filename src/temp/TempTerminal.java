@@ -1,4 +1,4 @@
-package app;
+package temp;
 
 import java.util.Scanner;
 
@@ -7,8 +7,7 @@ import java.util.Scanner;
  */
 public class TempTerminal {
     public static void main(String[] args) {
-        Double fahr;
-        Double cel;
+        double fahr, cel;
 
         // Enclose Scanner in try-with-resources to close the I/O after use
         try (Scanner in = new Scanner(System.in)) {

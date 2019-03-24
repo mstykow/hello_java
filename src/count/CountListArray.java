@@ -1,22 +1,21 @@
-package app;
+package count;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.ListIterator;
 import javax.swing.*;
 
 /**
  * Count the occurrence of integers 0 to 9 in a given number
  */
-public class Counter {
+public class CountListArray {
     public static void main(String[] args) {
         int idx;
 
-        String input;
-        input = JOptionPane.showInputDialog("Enter a number:");
+        String input = JOptionPane.showInputDialog("Enter a number:");
         int inputLength = input.length();
 
-        ArrayList<Integer> count;
-        count = new ArrayList<Integer>();
+        List<Integer> count = new ArrayList<Integer>();
         for (int i = 0; i < 10; i++) {
             count.add(0);
         }
@@ -26,7 +25,7 @@ public class Counter {
             count.set(idx, count.get(idx) + 1);
         }
 
-        // Equivalent of enumerate in Python
+        // Equivalent of `enumerate` in Python
         ListIterator<Integer> it = count.listIterator();
         while (it.hasNext()) {
             int currentIdx = it.nextIndex();
@@ -35,12 +34,5 @@ public class Counter {
                 System.out.println(currentIdx + " occurred " + currentVal + " times.");
             }
         }
-
-        // Or add an index to the for loop
-//        idx = 0;
-//        for (Integer i : count) {
-//            System.out.println(idx + " occurred " + i + " times.");
-//            idx++;
-//        }
     }
 }
