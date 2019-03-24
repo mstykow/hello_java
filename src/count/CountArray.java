@@ -2,8 +2,8 @@ package count;
 
 import javax.swing.*;
 
-/**
- * Count the occurrence of integers 0 to 9 in a given number
+/*
+ * Count the occurrence of integers 0 to 9 in a given number using an array
  */
 public class CountArray {
     public static void main(String[] args) {

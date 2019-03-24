@@ -2,7 +2,7 @@ package temp;
 
 import javax.swing.*;
 
-/**
+/*
  * Convert Fahrenheit to Celsius using the dialog boxes
  */
 public class TempDialog {

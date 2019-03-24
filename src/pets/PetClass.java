@@ -3,9 +3,8 @@ package pets;
 import java.awt.Color;
 
 /*
-* Define pet class and methods
-*/
-
+ * Define pet class and methods
+ */
 public class PetClass {
 
     String name;

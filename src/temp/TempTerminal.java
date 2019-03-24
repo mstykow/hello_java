@@ -2,7 +2,7 @@ package temp;
 
 import java.util.Scanner;
 
-/**
+/*
  * Convert Fahrenheit to Celsius using the terminal
  */
 public class TempTerminal {
