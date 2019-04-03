@@ -27,7 +27,7 @@ public class CountTreeMap {
             // Use regex to remove periods and commata
             String word = data.next().toLowerCase().replaceAll("[\\.,]", "");
             Integer wordCount = dict.get(word);
-            // Python's equivalent of dict.setdefault
+            // Java's equivalent of Python's dict.setdefault
             if (wordCount == null) {
                 wordCount = 0;
             }
